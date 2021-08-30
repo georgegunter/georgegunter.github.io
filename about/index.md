@@ -16,5 +16,5 @@ I am a PhD candidate in the Civil Engineering department at Vanderbilt Universit
 Primarily I have focused on applications of using Connected and Automated Vehoicles to control automotive traffic flow. More broadlu I'm interested in ways that we can use technologies from control theory and cyber-physical systems to improve the performance of our cities, but to do so with high reliance. Apart from solving problems in civil infrastrucute I am also interested in control theory, machine learning, and cyber-security.
 
 
-<div markdown="0"><a href="{{ site.url }}/download/william_barbour_resume.pdf" class="btn btn-success">R&eacute;sum&eacute;</a></div>
+<div markdown="0"><a href="{{ site.url }}/download/George_Gunter_resume.pdf" class="btn btn-success">R&eacute;sum&eacute;</a></div>
 
