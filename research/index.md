@@ -6,18 +6,24 @@ image:
 comments: false
 modified: 2018-01-27
 ---
-# Cyber attacks on traffic with automated vehicles.
+## Cyber attacks on traffic with automated vehicles.
+
+Vehicles with automated features are becoming increasingly present in traffic, such as adaptive cruise control (ACC) which manages a vehicle's speed in relation to vehicles ahead of it, effectively taking over a significant portion of the driving task. These technologies are expected to make traffic flows safer and more efficient, but they also introduce expanding attack vectors for cyber-security attacks. 
+
+This project explores the extent to which broader traffic flows can be attacked by cyber-comrpomised AVs. In our initial work we proposed a simple congestion inducing attack, which we call a randomized deceleration attack (RDA). We test the attack in a mixed-autonomy simulation environment which involves both automated vehicles and human drivers interacting in complex traffic dynamics, and find that the attack is able to degrade commuter metrics such as travel time, as well as system throughput. Additionally, the attacks escape detection via anomaly detection using an autoencoder neural network which attempts detection from GPS measurements on vehicles.
+
+<figure>
+  <a href="{{ site.url }}/images/Cyber_Attack_ACC_intro_fig.png"><img src="{{ site.url }}/images/Cyber_Attack_ACC_intro_fig.png" alt=""></a>
+</figure>
+
+
+## Traffic control from sparsely adopted automated vehicles.
 
 FILL IN
 
+## Analyzing commercially available ACC vehicles for string-stability.
 
-# Traffic control from sparsely adopted automated vehicles.
-
-FILL IN
-
-# Analyzing commercially available ACC vehicles for string-stability.
-
-This work investigated answering whether or not commerically available adaptive cruise control (ACC) vehicles operate under string-stable control. This was a property that had been asserted in a number of works, but had previously not been verified. 
+This work investigated answering whether or not commerically available ACC vehicles operate under string-stable control. This was a property that had been asserted in a number of works, but had previously not been verified. 
 
 We tested 8 commercially available 2018 vehicles across three manufacturers, with over 1000 miles of total driving data collected. We found across all vehicles that they did not engage in car-following behavior that was string-stable. As a result, this means that just as humans contribute to phantom traffic jams, so do commerically available ACCs.
 
