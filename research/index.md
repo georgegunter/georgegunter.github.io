@@ -2,12 +2,20 @@
 layout: page
 title: Primary Research Projects
 image:
-  feature: abstract-5.jpg
+  feature: Arizona_line_experiments_trimmed.jpg
 comments: false
 modified: 2018-01-27
 ---
+# Cyber attacks on traffic with automated vehicles.
 
-# Analyzing commercially available ACC vehicles for string-stability
+FILL IN
+
+
+# Traffic control from sparsely adopted automated vehicles.
+
+FILL IN
+
+# Analyzing commercially available ACC vehicles for string-stability.
 
 This work investigated answering whether or not commerically available adaptive cruise control (ACC) vehicles operate under string-stable control. This was a property that had been asserted in a number of works, but had previously not been verified. 
 
