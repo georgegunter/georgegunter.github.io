@@ -10,16 +10,18 @@ modified: 2018-01-27
 
 Vehicles with automated features are becoming increasingly present in traffic, such as adaptive cruise control (ACC) which manages a vehicle's speed in relation to vehicles ahead of it, effectively taking over a significant portion of the driving task. These technologies are expected to make traffic flows safer and more efficient, but they also introduce expanding attack vectors for cyber-security attacks. 
 
-This project explores the extent to which broader traffic flows can be attacked by cyber-comrpomised AVs. In our initial work we proposed a simple congestion inducing attack, which we call a randomized deceleration attack (RDA). We test the attack in a mixed-autonomy simulation environment which involves both automated vehicles and human drivers interacting in complex traffic dynamics, and find that the attack is able to degrade commuter metrics such as travel time, as well as system throughput. Additionally, the attacks escape detection via anomaly detection using an autoencoder neural network which attempts detection from GPS measurements on vehicles.
-
 <figure>
   <a href="{{ site.url }}/images/Cyber_Attack_ACC_intro_fig.png"><img src="{{ site.url }}/images/Cyber_Attack_ACC_intro_fig.png" alt=""></a>
 </figure>
 
+This project explores the extent to which broader traffic flows can be attacked by cyber-comrpomised AVs. In our initial work we proposed a simple congestion inducing attack, which we call a randomized deceleration attack (RDA). We test the attack in a mixed-autonomy simulation environment which involves both automated vehicles and human drivers interacting in complex traffic dynamics, and find that the attack is able to degrade commuter metrics such as travel time, as well as system throughput. Additionally, the attacks escape detection via anomaly detection using an autoencoder neural network which attempts detection from GPS measurements on vehicles. This work is currently under review. The feasibility of the attack was ealso experimentally validated on a live commercially available ACC vehicle.
+
+All code developed for this project can be found at [Anti-Flow](https://github.com/georgegunter/Anti-Flow). Further work will investigate developing both more advanced attack methods, as well as different approaches to adversary detection.
+
 
 ## Traffic control from sparsely adopted automated vehicles.
 
-FILL IN
+As part of the CIRCLES DOE project I work on developing automatic control techniques for automated vehicles which can improve energy consumption in broader traffic flows.
 
 ## Analyzing commercially available ACC vehicles for string-stability.
 
