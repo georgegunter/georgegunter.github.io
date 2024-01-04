@@ -21,7 +21,7 @@ All code developed for this project can be found at [Anti-Flow](https://github.c
 
 ## Traffic control from sparsely adopted automated vehicles.
 
-As part of the CIRCLES DOE project I work on developing automatic control techniques for automated vehicles which can improve energy consumption in broader traffic flows.
+As part of the [CIRCLES DOE project](https://circles-consortium.github.io/) I work on developing automatic control techniques for automated vehicles which can improve energy consumption in broader traffic flows.
 
 ## Analyzing commercially available ACC vehicles for string-stability.
 
