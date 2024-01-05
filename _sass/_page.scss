@@ -136,55 +136,6 @@ body {
 	}
 }
 
-.feature .secondary-title {
-	position: absolute;
-	top: 0;
-	display: table;
-	margin-top: 0;
-	width: 100%;
-	height: $secondary-image-height;
-	overflow: hidden;
-
-	.secondary-title-wrap {
-		display: table-cell;
-		vertical-align: middle;
-		margin: 0 auto;
-		text-align: center;
-	}
-
-	h1 {
-		margin: 10px;
-		font-weight: 700;
-		margin: 10px 60px;
-		color: #fff;
-		text-shadow: 1px 1px 4px rgba($base-color,0.6);
-
-		a {
-			color: #fff;
-		}
-	}
-
-	h2 {
-		margin: 0;
-		@include font-rem(24);
-		color: #fff;
-
-		@media #{$small} {
-			@include font-rem(18);
-		}
-		@media #{$medium} {
-			@include font-rem(20);
-		}
-		@media #{$large} {
-			@include font-rem(24);
-		}
-	}
-
-	p {
-		color: #fff;
-	}
-}
-
 .entry-image {
 	position: relative;
 	top: -50%; 
