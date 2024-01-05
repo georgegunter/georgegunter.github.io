@@ -32,7 +32,7 @@ One of the most interesting applications of the development of our CBF based ASF
 Here's a video of our deployment:
 
 <figure>
-	<a href="https://www.youtube.com/watch?v=8VHzVIvVvDg&t=163s"><img src="{{ site.url }}/research_images/images/V2I_on_I24" alt=""></a>
+	<a href="https://www.youtube.com/watch?v=8VHzVIvVvDg&t=163s"><img src="{{ site.url }}/images/research_images/V2I_on_I24" alt=""></a>
 </figure>
 
 
