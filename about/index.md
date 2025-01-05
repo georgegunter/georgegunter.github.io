@@ -11,10 +11,11 @@ modified: 2021-30-08
 
 # Biography
 
-I am a PhD candidate in the Civil Engineering department at Vanderbilt University. My advisor is [Professor Daniel Work](https://my.vanderbilt.edu/danwork/). I recieved a B.S. is in Civil and Environmental Engineering from the University of Illinois at Urbana-Champaign in 2019. In 2020 I was awarded an NSF Graduate Research Fellowship to study high reliance traffic control with automated vehicles.
-
-Primarily I have focused on applications of using Connected and Automated Vehoicles to control automotive traffic flow. More broadlu I'm interested in ways that we can use technologies from control theory and cyber-physical systems to improve the performance of our cities, but to do so with high reliance. Apart from solving problems in civil infrastrucute I am also interested in control theory, machine learning, and cyber-security.
+I am a PhD candidate in the Civil Engineering department at Vanderbilt University. My research focuses on studying safety and cyber-security in the in intelligent transportation systems. In the context of safety I focus on how to use formal verification and control theory to create algorithms with mathematical gaurantees of safety, which I have applied to the design of control of automated vehicles. My work on cyber-security has focused on developing tools for studying the extent to which automated vehicles could be used as attack vectors against broader traffic flows.
 
 
-<div markdown="0"><a href="{{ site.url }}/download/George_Gunter_resume.pdf" class="btn btn-success">R&eacute;sum&eacute;</a></div>
+My advisor is [Professor Daniel Work](https://my.vanderbilt.edu/danwork/). I recieved a B.S. is in Civil and Environmental Engineering from the University of Illinois at Urbana-Champaign in 2019. In 2020 I was awarded an NSF Graduate Research Fellowship to study high reliance traffic control with automated vehicles.
+
+
+<div markdown="0"><a href="{{ site.url }}/download/George_Gunter_resume.pdf" class="btn btn-success">Curriculum Vitae;</a></div>
 
