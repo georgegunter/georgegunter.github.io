@@ -17,5 +17,5 @@ I am a PhD candidate in the Civil Engineering department at Vanderbilt Universit
 My advisor is [Professor Daniel Work](https://my.vanderbilt.edu/danwork/). I recieved a B.S. is in Civil and Environmental Engineering from the University of Illinois at Urbana-Champaign in 2019. In 2020 I was awarded an NSF Graduate Research Fellowship to study high reliance traffic control with automated vehicles.
 
 
-<div markdown="0"><a href="{{ site.url }}/download/George_Gunter_resume.pdf" class="btn btn-success">Curriculum Vitae;</a></div>
+<div markdown="0"><a href="{{ site.url }}/download/George_Gunter_resume.pdf" class="btn btn-success">Curriculum Vitae</a></div>
 
