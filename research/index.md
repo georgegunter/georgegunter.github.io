@@ -37,6 +37,11 @@ In headway based operations of transit vehicles we want vehicles to arrive at st
 
 In this work we looked at using control barrier functions (CBFs) to supervise safe driving of automated vehicles (AVs). While CBFs have been shown in a wide set of theoretical works to effectively supervise AVs, this was some of the first work to experimentally test this in real world deployments. We put CBFs onto our experimental vehicle and drove hundreds of miles on real roadways letting the CBF supervise. We found that a simple CBF form was able to effectively supervise a variety of underlying controllers, but there were violations to the specified formal safety property of two kinds: 1) forward-invariance and 2) recovery. When beginning in satisfaction of the safety property, we saw some, relatively small, violations to the safety property. This means that forward-invariance was not strictly satisfied, but rather it was mostly (and practically) satisfied. Additionally, when other vehicles cut-in front of the AV at close distances, the property is immediately violated. From there, a desirable robustness property of good supervisory algorithms is recovery: that the system is always moving back towards safety. Again, we found this to not be strictly true. 
 
+
+<figure>
+  <a href="{{ site.url }}/images/CBF_testing_distribution.png"><img src="{{ site.url }}/images/CBF_testing_distribution.png" alt=""></a>
+</figure>
+
 After the initial work on deployment of CBFs we expanded our work to higher-order CBFs (HO-CBFs). When adopting a higher-order dynamical model of an AV, one that includes control lag, original formulations of CBFs were no longer correct. An HO-CBF formulation fixes this. However, the HO-CBF aslo induces a need to do higher-order derivative estimation, something that is known to induce measurement error. We deployed a formulation of the HO-CBF that does lvie derivative estimation and measured it's performance. Interestingly, despite a more accurate dynamical model forumlation, the HO-CBF performed similarly to the original CBF. We beleive this was due to the presence of estimation error. This raises interesting questions about the tradeoff between increased model accuracy and induced measurement error in designing formal methods approaches.
 
 

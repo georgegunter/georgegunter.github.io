@@ -19,5 +19,5 @@ I received my PhD from the Vanderbilt University Civil Engineering department, w
 
 
 
-<div markdown="0"><a href="{{ site.url }}/download/George_Gunter_resume.pdf" class="btn btn-success">Curriculum Vitae</a></div>
+<div markdown="0"><a href="{{ site.url }}/download/George Gunter CV.pdf" class="btn btn-success">Curriculum Vitae</a></div>
 
