@@ -33,7 +33,11 @@ We develop a novel numerical framework to solve this problem. By making a few sm
 ### Headway based transit operation with formal control of automed buses
 
 
-In headway based operations of transit vehicles we want vehicles to arrive at stops at even intervals (e.g. every 10 minutes), rather than at set times. Variations in passenger demand and variability in travel times can make this challenging, causing buses to draw too close or too far apart from one another. To mitigate this, we must respond in real-time to re-allign bus timing. This has 
+In headway based operations of transit vehicles we want vehicles to arrive at stops at even intervals (e.g. every 10 minutes), rather than at set times. Variations in passenger demand and variability in travel times can make this challenging, causing buses to draw too close or too far apart from one another. To mitigate this, we must respond in real-time to re-allign bus timing. The most common way to do this is to adjust bus travel times from stop to stop to re-align.
+
+In this work we studied this from the perspective of automated vehicle trajectory control. By controlling the speed of an automated bus (AB) as it goes from stop to stop, we can manage for headway. Not only that, but in addition to managing for headway we can balance this with other objectvives. 
+
+We developed a control barrier function based approach for headway management in buses. By treating headway as a formal property defined in terms of inter-vehicle time-gaps, we can develop a CBF to supervise for keeping headway within a range. Within the set of controls that keeps an AB headway compliant we then choose controls that optimize energy constraint, allowing us to both improve energy consumption and keep headway managed.
 
 
 
