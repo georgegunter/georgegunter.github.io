@@ -11,6 +11,13 @@ modified: 2018-01-27
 My current work is focused on building formal methods for real-time control and operation of transportation systems. 
 
 
+
+<figure>
+  <a href="{{ site.url }}/images/Formal_supervisor_design_pipeline.png"><img src="{{ site.url }}/Formal_supervisor_design_pipeline.png" alt=""></a>
+</figure>
+
+
+
 ### Traffic signal control for transit arrival time management through gradient based formal methods
 
 Traffic signal control (TSC) focuses on using the timing of traffic lights to optimize overall traffic flow metrics. A vairent of the TSP problem is transit signal priority (TSP), in which lights are timed with considerations for transit signals as well. For instance, a light might turn green when a bus is within a certain distance, allowing the bus to proceed un-interrupted. Simple TSP approaches have two potential drawbacks however: 1) Negative impact on traffic flows if overly aggressive, and 2) ineffectiveness at facilitating bus arrivals in congested traffic conditions. 
@@ -28,6 +35,11 @@ We develop a novel numerical framework to solve this problem. By making a few sm
 
 In headway based operations of transit vehicles we want vehicles to arrive at stops at even intervals (e.g. every 10 minutes), rather than at set times. Variations in passenger demand and variability in travel times can make this challenging, causing buses to draw too close or too far apart from one another. To mitigate this, we must respond in real-time to re-allign bus timing. This has 
 
+
+
+<figure>
+  <a href="{{ site.url }}/images/Bus_CBF_space_time_comparison.png"><img src="{{ site.url }}/Bus_CBF_space_time_comparison.png" alt=""></a>
+</figure>
 
 
 
