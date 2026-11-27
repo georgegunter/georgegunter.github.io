@@ -13,8 +13,13 @@ modified: 2021-30-08
 
 
 
-<figure>
+<!-- <figure>
   <a href="{{ site.url }}/images/George_Headshot_LoRes.png"><img src="{{ site.url }}/George_Headshot_LoRes.png" alt=""></a>
+</figure> -->
+
+
+<figure>
+  <a href="{{ site.url }}/images/George_Headshot_LoRes.png"><img src="{{ site.url }}/images/George_Headshot_LoRes.png" alt=""></a>
 </figure>
 
 
