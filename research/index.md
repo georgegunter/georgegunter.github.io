@@ -41,8 +41,13 @@ We developed a control barrier function based approach for headway management in
 
 
 
-<figure>
+<!-- <figure>
   <a href="{{ site.url }}/images/Bus_CBF_space_time_comparison.png"><img src="{{ site.url }}/Bus_CBF_space_time_comparison.png" alt=""></a>
+</figure> -->
+
+
+<figure>
+  <a href="{{ site.url }}/images/CBF_testing_distribution.png"><img src="{{ site.url }}/images/CBF_testing_distribution.png" alt=""></a>
 </figure>
 
 
